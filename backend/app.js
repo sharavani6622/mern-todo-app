@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 mongoose.connect(
-  "mongodb+srv://sharavani6622_db_user:sharu_2425@cluster0.5u94opo.mongodb.net/")
+  "mongodb+srv://<db_username>:<db_password>@cluster0.5u94opo.mongodb.net/?appName=Cluster0")
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log(err));
 
